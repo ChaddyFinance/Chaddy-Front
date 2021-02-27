@@ -1,16 +1,15 @@
 {
   "name": "goose-frontend",
-  "version": "0.1.0",
+  "version": "2.1.0",
   "repository": "https://github.com/gooseswap/GooseSwap-Farms",
-  "license": "MIT",
-  "scripts": {
+"scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
-    "format": "prettier --write 'src/**/*.{js,jgooseswap/GooseSwap-eslintsx,ts,tsx}'"
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
   },
   "husky": {
     "hooks": {
@@ -34,7 +33,7 @@
     "@binance-chain/bsc-use-wallet": "^0.8.1",
     "@crowdin/crowdin-api-client": "^1.10.1",
     "@ethersproject/abi": "^5.0.7",
-    "@pancakeswap-libs/uikit": "github:gooseswap/GooseSwap-Farms#master",
+    "@pancakeswap-libs/uikit": "gooseswap/GooseSwap-uikit",
     "@reduxjs/toolkit": "^1.5.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
@@ -61,7 +60,7 @@
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "@pancakeswap-libs/eslint-config-pancake": "github:gooseswap/GooseSwap-eslint#master",
+    "@pancakeswap-libs/eslint-config-pancake": "gooseswap/GooseSwap-eslint",
     "@types/jest": "^26.0.19",
     "eslint": "^7.16.0",
     "husky": "^4.3.0",
