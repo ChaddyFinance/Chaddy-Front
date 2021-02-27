@@ -1,14 +1,9 @@
-
 {
-
   "_inBundle": false,
-
   "_requiredBy": [
     "/"
   ],
-
-    "_from": "github:gooseswap/GooseSwap-Wallet",
-  "_id": "@binance-chain/bsc-use-wallet",
+  "_from": "github:gooseswap/GooseSwap-Farms",
   "bundleDependencies": false,
   "name": "goose-frontend",
   "version": "2.1.0",
@@ -45,10 +40,6 @@
       "last 1 safari version"
     ]
   },
-    "plugins": [
-    "@babel/plugin-transform-runtime",
-    "@babel/runtime"
-  ],
   "dependencies": {
     "@binance-chain/bsc-use-wallet": "gooseswap/GooseSwap-Wallet",
     "@crowdin/crowdin-api-client": "^1.10.1",
@@ -89,7 +80,6 @@
     "source-map-explorer": "^2.5.1"
   },
   "peerDependencies": {
-    "react": "^16.8.0",
     "react": "^16.12.0"
   }
 }
