@@ -1,9 +1,12 @@
-{
+react@^16.12.0{
   "name": "goose-frontend",
   "version": "2.1.0",
   "repository": "https://github.com/gooseswap/GooseSwap-Farms",
-    "plugins": ["@babel/plugin-transform-runtime","@babel/runtime"],
-"scripts": {
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "@babel/runtime"
+  ],
+  "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -31,8 +34,7 @@
     ]
   },
   "dependencies": {
-    
-    "@binance-chain/bsc-use-wallet": "gooseswap/GooseSwap-Wallet#fix-build",
+    "@binance-chain/bsc-use-wallet": "gooseswap/GooseSwap-Wallet",
     "@crowdin/crowdin-api-client": "^1.10.1",
     "@ethersproject/abi": "^5.0.7",
     "@pancakeswap-libs/uikit": "gooseswap/GooseSwap-uikit",
@@ -69,4 +71,8 @@
     "prettier": "^2.1.2",
     "source-map-explorer": "^2.5.1"
   }
+  "peerDependencies": {
+  "react: "^16.8.0 ",
+   "react: "^16.12.0 "
+}
 }
