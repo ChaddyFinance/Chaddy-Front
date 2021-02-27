@@ -1,4 +1,15 @@
+
 {
+
+  "_inBundle": false,
+
+  "_requiredBy": [
+    "/"
+  ],
+
+    "_from": "github:gooseswap/GooseSwap-Wallet",
+  "_id": "@binance-chain/bsc-use-wallet",
+  "bundleDependencies": false,
   "name": "goose-frontend",
   "version": "2.1.0",
   "repository": "https://github.com/gooseswap/GooseSwap-Farms",
@@ -48,6 +59,7 @@
     "chart.js": "^2.9.4",
     "iframe-resizer-react": "^1.1.0",
     "lodash": "^4.17.20",
+    "npm-check-updates": "^11.1.9",
     "react": "^17.0.1",
     "react-chartjs-2": "^2.11.1",
     "react-countup": "^4.3.3",
@@ -72,9 +84,7 @@
     "prettier": "^2.1.2",
     "source-map-explorer": "^2.5.1"
   },
-    "peerDependencies": {
-  "react": "^16.12.0",
-  "react": "^16.8.0"
-}
-
+  "peerDependencies": {
+    "react": "^16.8.0"
+  }
 }
