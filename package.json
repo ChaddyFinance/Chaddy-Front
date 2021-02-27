@@ -1,7 +1,8 @@
 {
   "name": "goose-frontend",
   "version": "0.1.0",
-  "private": true,
+  "repository": "https://github.com/gooseswap/GooseSwap-Farms",
+  "license": "MIT",
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
