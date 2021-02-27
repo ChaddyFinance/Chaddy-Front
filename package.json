@@ -9,7 +9,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
-    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
+    "format": "prettier --write 'src/**/*.{js,jgooseswap/GooseSwap-eslintsx,ts,tsx}'"
   },
   "husky": {
     "hooks": {
@@ -60,7 +60,7 @@
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "@pancakeswap-libs/eslint-config-pancake": "1.0.0",
+    "@pancakeswap-libs/eslint-config-pancake": "gooseswap/GooseSwap-eslint#master",
     "@types/jest": "^26.0.19",
     "eslint": "^7.16.0",
     "husky": "^4.3.0",
