@@ -1,18 +1,7 @@
 {
-  "_inBundle": false,
-  "_requiredBy": [
-    "/"
-  ],
-  "_from": "github:gooseswap/GooseSwap-Front",
-  "bundleDependencies": false,
   "name": "goose-frontend",
-  "version": "2.1.0",
-  "repository": "https://github.com/gooseswap/GooseSwap-Front",
-  "license": "MIT",
-  "plugins": [
-    "@babel/plugin-transform-runtime",
-    "@babel/runtime"
-  ],
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
@@ -41,7 +30,7 @@
     ]
   },
   "dependencies": {
-    "@binance-chain/bsc-use-wallet": "gooseswap/bsc-use-wallet",
+    "@binance-chain/bsc-use-wallet": "^0.8.1",
     "@crowdin/crowdin-api-client": "^1.10.1",
     "@ethersproject/abi": "^5.0.7",
     "@pancakeswap-libs/uikit": "gooseswap/GooseSwap-uikit",
@@ -54,7 +43,6 @@
     "chart.js": "^2.9.4",
     "iframe-resizer-react": "^1.1.0",
     "lodash": "^4.17.20",
-    "npm-check-updates": "^11.1.9",
     "react": "^17.0.1",
     "react-chartjs-2": "^2.11.1",
     "react-countup": "^4.3.3",
@@ -72,14 +60,11 @@
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "@pancakeswap-libs/eslint-config-pancake": "gooseswap/GooseSwap-eslint",
+    "@pancakeswap-libs/eslint-config-pancake": "1.0.0",
     "@types/jest": "^26.0.19",
     "eslint": "^7.16.0",
     "husky": "^4.3.0",
     "prettier": "^2.1.2",
     "source-map-explorer": "^2.5.1"
-  },
-  "peerDependencies": {
-    "react": "^16.12.0"
   }
 }
