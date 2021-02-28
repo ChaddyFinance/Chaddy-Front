@@ -3,11 +3,11 @@
   "_requiredBy": [
     "/"
   ],
-  "_from": "github:gooseswap/GooseSwap-Farms",
+  "_from": "github:gooseswap/GooseSwap-Front",
   "bundleDependencies": false,
   "name": "goose-frontend",
   "version": "2.1.0",
-  "repository": "https://github.com/gooseswap/GooseSwap-Farms",
+  "repository": "https://github.com/gooseswap/GooseSwap-Front",
   "license": "MIT",
   "plugins": [
     "@babel/plugin-transform-runtime",
@@ -41,7 +41,7 @@
     ]
   },
   "dependencies": {
-    "@binance-chain/bsc-use-wallet": "gooseswap/GooseSwap-Wallet",
+    "@binance-chain/bsc-use-wallet": "gooseswap/bsc-use-wallet",
     "@crowdin/crowdin-api-client": "^1.10.1",
     "@ethersproject/abi": "^5.0.7",
     "@pancakeswap-libs/uikit": "gooseswap/GooseSwap-uikit",
