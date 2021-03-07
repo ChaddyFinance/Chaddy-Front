@@ -11,7 +11,7 @@ const config: MenuEntry[] = [
     icon: 'TradeIcon',
     items: [
       {
-        label: 'Exchange',        
+        label: 'Exchange',
         href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xAD3147EdFA0Ee2f5d0Ae4A2C30456a6cBEc48D75',
       },
       {
